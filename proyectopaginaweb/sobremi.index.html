@@ -1,119 +1,128 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
-    <title>Mi pagina web</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/estilos.css">
-    
-  </head>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <title>Mi pagina web</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+
+</head>
 
 
-  <body>
-    <!-- Encabezado -->
-    <header>
-      <div class="contenedor">
-        <div class="logo">
-          <img src="img/logo.png" alt="Logo">
-        </div>
-        <nav class="menu">
-          <a href="index.html">INICIO</a>
-          <a href="productos.Index.html">PRODUCTOS</a>
-          <a href="sobremi.index.html">SOBRE MI</a>
-
-        </nav>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <div class="contenedor">
+      <div class="logo">
+        <img src="img/logo.png" alt="Logo">
       </div>
-    </header>
+      <nav class="menu">
+        <a href="index.html">INICIO</a>
+        <a href="productos.Index.html">PRODUCTOS</a>
+        <a href="sobremi.index.html">SOBRE MI</a>
 
-    <!-- Banner principal -->
-    <section class="bannersobremi">
-      <div>
-        <div class="contenedor llamada-accion">
-          <p>Conócenos un poco más</p>
-          <h2>SOBRE MÍ</h2>
-          <link rel="preconnect" href="https://fonts.googleapis.com">
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-          <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
-        </div>
-      </div>
-    </section>
+      </nav>
+    </div>
+  </header>
 
-    <!-- Sección de bienvenidaSobremi -->
-    <section class="bienvenidaSobremi">
-      <div class="contenedor">
-        <h3>Andrea Torres Oliveros. </h3>
-        <p>Estudio actualmente Diseño Industrial en la Facultad de Estudios Superiores Aragón, me gusta dedicarme en mis tiempos libres a tocar el piano, dibujar, pintar, aprender cosas nuevas como programación o algún idioma; y conocer personas nuevas.</p>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Banner principal -->
+  <section class="bannersobremi">
+    <div>
+      <div class="contenedor llamada-accion">
+        <p>Conócenos un poco más</p>
+        <h2>SOBRE MÍ</h2>
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Sección sobre CONÓCENOS -->
-    <section class="nosotros">
-      <div class="contenedor">
-        <div class="foto-equipo">
-          <img src="img/fotodemi.jpg" alt="Foto de nuestro equipo">
-        </div>
-        <div class="conocenos">
-          <p>CONTÁCTANOS</p>
-          <h3>NOSOTROS</h3>
-          <p>Somos un equipo dispuesto para ayudarte</p>
+  <!-- Sección de bienvenidaSobremi -->
+  <section class="bienvenidaSobremi">
+    <div class="contenedor">
+      <h3>Andrea Torres Oliveros. </h3>
+      <p>Estudio actualmente Diseño Industrial en la Facultad de Estudios Superiores Aragón, me gusta dedicarme en mis
+        tiempos libres a tocar el piano, dibujar, pintar, aprender cosas nuevas como programación o algún idioma; y
+        conocer personas nuevas.</p>
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300&display=swap" rel="stylesheet">
+    </div>
+  </section>
 
-          <form>
-            <p>
-                <label for="camponombre">Nombre</label>
-                <input type="text" name="nombre" id="camponombre" placeholder="Nombre">
-            </p>
+  <!-- Sección sobre CONÓCENOS -->
+  <section class="nosotros">
+    <div class="contenedor">
+      <div class="foto-equipo">
+        <img src="img/fotodemi.jpg" alt="Foto de nuestro equipo">
+      </div>
+      <div class="conocenos">
+        <p>CONTÁCTANOS</p>
+        <h3>NOSOTROS</h3>
+        <p>Somos un equipo dispuesto para ayudarte</p>
 
-            <!--Esta es la tabla de la contraseña -->
-            <p>
-                <label for="password"> Contraseña:</label>
-                <input type="password" name="psw" id="password">
-            </p>
-            <!--Campo de email-->
-            <p>
-                <label for="email">Email</label>
-                <input type="email" id="email">
-            </p>
-            <!--Campo de fecha-->
-            <p>
-                <label for="fecha">Fecha:</label>
-                <input type="date" name="fecha" id="fecha">
-            </p>
+        <form id="formulario">
+          <!--Formulario-->
+          <!--name-->
+          <input class="form-control mb-2" placeholder="Nombre" autocomplete="off" type="text" name="nombre"
+            id="userName">
+
+
+          <!--Esta es la tabla de la Comentario -->
+          <p>
+
+            <label for="mensaje"> Comentarios </label><br>
+            <textarea id="mensaje" rows="4" cols="30" placeholder="Deja tu mensaje" autocomplete="off"> </textarea>
+          </p>
+
+          <!--Campo de email-->
+          <p>
+            <label for="email">Email</label>
+            <input class="form-control mb-2" placeholder="Email" autocomplete="off" type="text" id="userEmail" /><br>
+          </p>
+
+          <!--button-->
+          <button class="btn btn-primary" type="submit">Enviar</button>
+          </p>
         </form>
+      </div>
+    </div>
+  </section>
 
-          <p></p>
+  <!-- Pie de página -->
+  <footer>
+    <div class="top-footer"></div>
+    <div class="center-footer">
+      <div class="contenedor">
+        <div class="widget">
+          <h4>Objetivo</h4>
+          <p>Un mejor uso a materiales que se pueden reciclar de manera creativa. Es importante cuidar el ambiente y
+            darle un segundo uso a las cosas, y no hay mejor forma que mediante el arte, ya sea pintando o modificando
+            su esructura.</p>
+        </div>
+        <div class="widget">
+          <img src="img/papelreciclado.jpg" Note style="height: 180px;width: 160px"></th>
+        </div>
+        <div class="widget">
+          <img src="img/perchero.jpg" Note style="height: 180px;width: 120px"></th>
+        </div>
+        <div class="widget">
+          <p>Haz que el arte y el color sea parte de tu vida</p>
         </div>
       </div>
-    </section>
+    </div>
+    </div>
+    <div class="bottom-footer">
+      <p>&copy; Todos los derechos reservados</p>
+    </div>
+  </footer>
+  <!--Scripts-->
+  <script src="app.js"></script>
+</body>
 
-    <!-- Pie de página -->
-    <footer>
-      <div class="top-footer"></div>
-      <div class="center-footer">
-        <div class="contenedor">
-          <div class="widget">
-            <h4>Objetivo</h4>
-            <p>Un mejor uso a materiales que se pueden reciclar de manera creativa. Es importante cuidar el ambiente y darle un segundo uso a las cosas, y no hay mejor forma que mediante el arte, ya sea pintando o modificando su esructura.</p>
-          </div>
-          <div class="widget">
-            <img src="img/papelreciclado.jpg"Note style="height: 180px;width: 160px"></th>
-          </div>
-          <div class="widget">
-            <img src="img/perchero.jpg"Note style="height: 180px;width: 120px"></th>
-          </div>
-          <div class="widget">
-            <p>Haz que el arte y el color sea parte de tu vida</p>
-          </div>
-          </div>
-        </div>
-      </div>
-      <div class="bottom-footer">
-        <p>&copy; Todos los derechos reservados</p>
-      </div>
-    </footer>
-  </body>
 </html>
